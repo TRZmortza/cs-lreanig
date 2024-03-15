@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TRZmorteza\\Desktop\\last\\last.csproj": {}
+    "E:\\vs code git\\cs-lreanig\\last\\last.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TRZmorteza\\Desktop\\last\\last.csproj": {
+    "E:\\vs code git\\cs-lreanig\\last\\last.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TRZmorteza\\Desktop\\last\\last.csproj",
+        "projectUniqueName": "E:\\vs code git\\cs-lreanig\\last\\last.csproj",
         "projectName": "last",
-        "projectPath": "C:\\Users\\TRZmorteza\\Desktop\\last\\last.csproj",
+        "projectPath": "E:\\vs code git\\cs-lreanig\\last\\last.csproj",
         "packagesPath": "C:\\Users\\TRZmorteza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TRZmorteza\\Desktop\\last\\obj\\",
+        "outputPath": "E:\\vs code git\\cs-lreanig\\last\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TRZmorteza\\AppData\\Roaming\\NuGet\\NuGet.Config"
