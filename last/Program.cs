@@ -93,3 +93,21 @@ int grade=Convert.ToInt32(Console.ReadLine());
 string isHePassed= grade<10?"NO":"YES";
 Console.WriteLine(isHePassed);
 */
+//switch
+/*
+int num=45;
+switch (num)
+{
+    case 1:
+    //code
+     break;
+    case 2:
+    //code
+     break;
+    case 3:
+     //code
+     break;
+    default:
+    break;
+}
+*/
