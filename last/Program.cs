@@ -30,3 +30,60 @@ else{
     Console.WriteLine("you been retired this many year {0} mr/ms:{1}",(totalYearsLeft*-1),userName);
 }
 */
+//lreaniug how to de bug in c# and vs code
+/*
+string? name=string.Empty;
+int age=0;
+decimal salary=0;
+char gender='\0';
+bool job=false;//for me its false
+Console.Write("pls Enter Your Name: ");
+name=Console.ReadLine();
+
+Console.Write("pls Enter Your Age: ");
+age=Convert.ToInt32(Console.ReadLine());
+
+Console.Write("pls Enter Your salary: ");
+salary=Convert.ToDecimal(Console.ReadLine());
+
+Console.Write("Are You Male our Femele(m/f): ");
+gender=Convert.ToChar(Console.ReadLine());
+
+Console.Write("DO You Have Job(true/false)? ");
+job=Convert.ToBoolean(Console.ReadLine());
+string gen=string.Empty;//short of gender
+if (gender=='M'||gender=='m')
+{
+    gen="male";
+}else
+{
+    gen="female";
+}
+string jobStats=string.Empty;
+if (job)
+{
+    jobStats="working";
+}else
+{
+    jobStats="not working";
+}
+Console.WriteLine("{0} youre a {1}\nyour income is {2}$\nyoure currently {3} ",name,gen,salary,jobStats);*/
+/*
+//math operations and operators
+int num,num1=10,num2=1;
+//add
+num=num1+num2;
+//multiply
+num=num1*num2;
+//devision
+num=num1/num2;
+//subtraction
+num=num1-num2;
+//modulus
+num=num1%num2;
+*/
+//logic operations and opetrators
+/* // >= / <= / == / !=
+var isGreaterThen= 2<3;//this are same i think
+bool isSmalerThen= 2>3;
+*/
