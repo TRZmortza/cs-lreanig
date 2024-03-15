@@ -87,3 +87,9 @@ num=num1%num2;
 var isGreaterThen= 2<3;//this are same i think
 bool isSmalerThen= 2>3;
 */
+/*//ternary operator
+Console.Write("pls Enter your grade: ")
+int grade=Convert.ToInt32(Console.ReadLine());
+string isHePassed= grade<10?"NO":"YES";
+Console.WriteLine(isHePassed);
+*/
