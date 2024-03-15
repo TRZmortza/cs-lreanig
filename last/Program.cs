@@ -28,6 +28,5 @@ if (totalYearsLeft>0)
 }
 else{
     Console.WriteLine("you been retired this many year {0} mr/ms:{1}",(totalYearsLeft*-1),userName);
-
 }
 */
