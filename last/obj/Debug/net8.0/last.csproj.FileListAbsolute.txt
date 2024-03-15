@@ -12,3 +12,18 @@ C:\Users\TRZmorteza\Desktop\last\obj\Debug\net8.0\refint\last.dll
 C:\Users\TRZmorteza\Desktop\last\obj\Debug\net8.0\last.pdb
 C:\Users\TRZmorteza\Desktop\last\obj\Debug\net8.0\last.genruntimeconfig.cache
 C:\Users\TRZmorteza\Desktop\last\obj\Debug\net8.0\ref\last.dll
+E:\vs code git\cs-lreanig\last\bin\Debug\net8.0\last.exe
+E:\vs code git\cs-lreanig\last\bin\Debug\net8.0\last.deps.json
+E:\vs code git\cs-lreanig\last\bin\Debug\net8.0\last.runtimeconfig.json
+E:\vs code git\cs-lreanig\last\bin\Debug\net8.0\last.dll
+E:\vs code git\cs-lreanig\last\bin\Debug\net8.0\last.pdb
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.AssemblyInfoInputs.cache
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.AssemblyInfo.cs
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.csproj.CoreCompileInputs.cache
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.sourcelink.json
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.dll
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\refint\last.dll
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.pdb
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\last.genruntimeconfig.cache
+E:\vs code git\cs-lreanig\last\obj\Debug\net8.0\ref\last.dll
