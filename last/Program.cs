@@ -146,3 +146,13 @@ switch (ch)
         break;
 }
 */  
+//for loop
+/*
+int manyTimes=0;
+Console.WriteLine("how many hello wrld do you want?");
+manyTimes=Convert.ToInt32(Console.ReadLine());
+for (int i = 0; i < manyTimes; i++)
+{
+    Console.WriteLine((i+1)+")Hello World!!");
+}
+*/
