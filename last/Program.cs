@@ -111,3 +111,38 @@ switch (num)
     break;
 }
 */
+//simple calculator
+/*
+Console.WriteLine("-=-=-=-=-=-=-welcome-=-=-=-=-=-=-");
+decimal num1=0,num2=0;
+Console.Write("pls enetr the first number:");
+num1=Convert.ToDecimal(Console.ReadLine());
+
+Console.Write("pls enetr the sec number:");
+num2=Convert.ToDecimal(Console.ReadLine());
+
+Console.Write("pls enetr operator simbel:");
+char ch=Convert.ToChar(Console.ReadLine());
+switch (ch)
+{
+    case '+' :
+        Console.WriteLine($"you chose addition:{num1}+{num2}="+(num1+num2));
+        break;
+    case '-' :
+        Console.WriteLine($"you chose subtraction:{num1}-{num2}="+(num1-num2));
+        break;
+    case '*' :
+        Console.WriteLine($"you chose multiplication:{num1}X{num2}="+(num1*num2));
+        break;
+    case '/' :
+        Console.WriteLine($"you chose Division:{num1}%{num2}="+(num1/num2));
+     break;
+    default:
+        Console.WriteLine("invalid choice bu i will give you all i can do");
+        Console.WriteLine($"you chose some thing:{num1}%{num2}="+(num1/num2));
+        Console.WriteLine($"you chose some thing:{num1}X{num2}="+(num1*num2));
+        Console.WriteLine($"you chose some thing:{num1}-{num2}="+(num1-num2));
+        Console.WriteLine($"you chose some thing:{num1}+{num2}="+(num1+num2));
+        break;
+}
+*/  
