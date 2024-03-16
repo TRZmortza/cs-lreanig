@@ -163,6 +163,7 @@ while (true)
 {
     Console.Write("pls enter a number for adding our enter (-1):");
     newNum=Convert.ToInt32(Console.ReadLine());
+    //nested if statement
     if (newNum==-1)
     {
         break;
