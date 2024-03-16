@@ -156,3 +156,18 @@ for (int i = 0; i < manyTimes; i++)
     Console.WriteLine((i+1)+")Hello World!!");
 }
 */
+//while loop
+/*
+int sum=0,newNum;
+while (true)
+{
+    Console.Write("pls enter a number for adding our enter (-1):");
+    newNum=Convert.ToInt32(Console.ReadLine());
+    if (newNum==-1)
+    {
+        break;
+    }
+    sum+=newNum;
+}
+    Console.WriteLine("total of entered numbers are:"+sum);
+*/
