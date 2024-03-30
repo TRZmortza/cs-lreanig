@@ -172,3 +172,16 @@ while (true)
 }
     Console.WriteLine("total of entered numbers are:"+sum);
 */
+// try and catch
+/*
+try{
+Console.Write("Enter your Age: ");
+int Age=Convert.ToInt32(Console.ReadLine());
+Console.Write($"your age is {Age}");
+
+
+} catch(Exception){
+   Console.WriteLine("invalid input only number input allowed");
+    //throw;
+}
+*/
