@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\vs code git\\cs-lreanig\\last\\last.csproj",
+      "projectUniqueName": "C:\\Users\\TRZmorteza\\Desktop\\git\\c#\\cs-lreanig\\last\\last.csproj",
       "projectName": "last",
-      "projectPath": "E:\\vs code git\\cs-lreanig\\last\\last.csproj",
+      "projectPath": "C:\\Users\\TRZmorteza\\Desktop\\git\\c#\\cs-lreanig\\last\\last.csproj",
       "packagesPath": "C:\\Users\\TRZmorteza\\.nuget\\packages\\",
-      "outputPath": "E:\\vs code git\\cs-lreanig\\last\\obj\\",
+      "outputPath": "C:\\Users\\TRZmorteza\\Desktop\\git\\c#\\cs-lreanig\\last\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TRZmorteza\\AppData\\Roaming\\NuGet\\NuGet.Config"

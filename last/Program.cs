@@ -185,3 +185,13 @@ Console.Write($"your age is {Age}");
     //throw;
 }
 */
+
+try
+{
+    int a=Convert.ToInt32(Console.ReadLine());
+}
+catch (System.Exception)
+{
+    Console.Write("you bafon");
+    //throw;
+}
