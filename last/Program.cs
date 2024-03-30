@@ -184,14 +184,4 @@ Console.Write($"your age is {Age}");
    Console.WriteLine("invalid input only number input allowed");
     //throw;
 }
-*/
-
-try
-{
-    int a=Convert.ToInt32(Console.ReadLine());
-}
-catch (System.Exception)
-{
-    Console.Write("you bafon");
-    //throw;
-}
+*/tost
