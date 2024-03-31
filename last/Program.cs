@@ -184,4 +184,71 @@ Console.Write($"your age is {Age}");
    Console.WriteLine("invalid input only number input allowed");
     //throw;
 }
-*/tost
+*/
+//try catch exercise 1
+//finle try catch exercise 1
+
+Console.WriteLine("-=-=-=-=-=-=-welcome-=-=-=-=-=-=-");
+decimal num1 = 0, num2 = 0;
+while (true)
+{
+    try
+    {
+        Console.Clear();
+        Console.Write("operator + press 1");
+        Console.Write("\noperator - press 2");
+        Console.Write("\noperator X press 3");
+        Console.Write("\noperator % press 4");
+        Console.Write("\n  And exit press 5\n");
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+
+        if (choice == 5)
+            break;
+        else
+        {
+            Console.Write("pls enetr the first number:");
+            num1 = Convert.ToDecimal(Console.ReadLine());
+
+            Console.Write("pls enetr the sec number:");
+            num2 = Convert.ToDecimal(Console.ReadLine());
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine($"you chose addition:{num1}+{num2}=" + (num1 + num2));
+                    break;
+                case 2:
+                    Console.WriteLine($"you chose subtraction:{num1}-{num2}=" + (num1 - num2));
+                    break;
+                case 3:
+                    Console.WriteLine($"you chose multiplication:{num1}X{num2}=" + (num1 * num2));
+                    break;
+                case 4:
+                    try
+                    {
+                        Console.WriteLine($"you chose Division:{num1}%{num2}=" + (num1 / num2));
+                    }
+                    catch (DivideByZeroException)
+                    {
+                        Console.WriteLine("invalid input can not do {0} % {1}", num1, num2);
+                        Console.WriteLine("press any key to contino");
+                        Console.Read();
+
+                    }
+
+                    break;
+
+                default:
+                    break;
+            }
+            Console.WriteLine("press any key to contino");
+            Console.Read();
+        }
+    }
+    catch (System.Exception)
+    {
+        Console.WriteLine("invalid input only number input allowed");
+        //throw;
+    }
+    Console.Write("tnk for using me :-)");
+}
