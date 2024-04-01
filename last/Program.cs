@@ -298,7 +298,8 @@ while (infinite)
     }
 }
 */
-//strings 
+//strings
+/* 
 //initialize with regular string literal 
 string s1="this is a literal string";
 Console.WriteLine("\ninitialize with regular string literal="+s1);
@@ -356,3 +357,4 @@ Console.WriteLine("\nstring math="+newMeow);
 
 string newMeow1=String.Format("\nliteral string {0} and {1}",s1,s2);
 Console.WriteLine("\nstring math="+newMeow1);
+*/
