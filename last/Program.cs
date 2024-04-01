@@ -298,5 +298,61 @@ while (infinite)
     }
 }
 */
+//strings 
+//initialize with regular string literal 
+string s1="this is a literal string";
+Console.WriteLine("\ninitialize with regular string literal="+s1);
+String s2="this is a literal string";
+Console.WriteLine("\ninitialize with regular string literal="+s2);
+//Declare without initializin (possible null exception)
+string s3;
+//Console.WriteLine("Declare without initializin (possible null exception)="+s3);
+// initialize to null (possible null exception)
+string? s4=null;
+Console.WriteLine("\ninitialize to null (possible null exception)="+s4);
 
+//initialize to empty string 
+string s5=string.Empty;
+Console.WriteLine("\ninitialize to empty string="+s5);
 
+string s6="";
+Console.WriteLine("\ninitialize to empty string="+s6);
+
+//Escape sequences and characters
+string sequences="she said,\"by me a phone\"\r\nthis is the next line";
+Console.WriteLine("\nEscape sequences and characters="+sequences);
+
+//verbatim string literal
+string oldpath="E:\\newflodeer\\myfiles";
+Console.WriteLine("\nverbatim string literal="+oldpath);
+
+string newpath=@"E:\newflodeer\myfiles";
+Console.WriteLine("\nverbatim string literal="+newpath);
+
+//using a counst to prevent modification to string
+const string path="E:\\newflodeer\\myfiles";
+Console.WriteLine("\nusing a counst"+path);
+
+//path=null//you can`t do this
+//rew string literals
+string rawLiterals="""\n \t \r '""' """;
+Console.WriteLine("\nrew string literals="+rawLiterals);
+
+string rawLiteral=
+""" 
+
+first line
+secound
+""";
+Console.WriteLine("\nrew string literals="+rawLiteral);
+
+//string math
+//s1+=s2;
+string meow=$"{s1} +{s2}={s1}{s2}";
+Console.WriteLine("\nstring math="+meow);
+
+string newMeow=s1+$"{s1} +{s2}={s1}{s2}";
+Console.WriteLine("\nstring math="+newMeow);
+
+string newMeow1=String.Format("\nliteral string {0} and {1}",s1,s2);
+Console.WriteLine("\nstring math="+newMeow1);
