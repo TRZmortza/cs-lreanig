@@ -145,7 +145,7 @@ switch (ch)
         Console.WriteLine($"you chose some thing:{num1}+{num2}="+(num1+num2));
         break;
 }
-*/  
+*/
 //for loop
 /*
 int manyTimes=0;
@@ -187,7 +187,7 @@ Console.Write($"your age is {Age}");
 */
 //try catch exercise 1
 //finle try catch exercise 1
-
+/*
 Console.WriteLine("-=-=-=-=-=-=-welcome-=-=-=-=-=-=-");
 decimal num1 = 0, num2 = 0;
 while (true)
@@ -252,3 +252,41 @@ while (true)
     }
     Console.Write("tnk for using me :-)");
 }
+*/
+bool infinite = true;
+int num;
+string er = "thankYou";
+while (infinite)
+{
+
+    try
+    {
+        while (infinite)
+        {
+            Console.Clear();
+            Console.Write("give me string for handling error ;-): ");
+            num = Convert.ToInt32(Console.ReadLine());
+            num = 0;
+            while (infinite)
+            {
+                Console.Clear();
+                Console.WriteLine("type 3");
+                num = Convert.ToInt32(Console.ReadLine());
+                if (num == 3)
+                    throw new Exception(er);
+                else if (num == 85)
+                    infinite = false;
+            }
+        }
+    }
+    catch (System.Exception m)
+    {   
+        Console.Clear();
+        Console.WriteLine(er + "2");
+        Console.WriteLine(m);
+        Console.ReadKey();
+        continue;
+    }
+}
+
+
