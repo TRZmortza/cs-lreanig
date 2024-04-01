@@ -253,6 +253,8 @@ while (true)
     Console.Write("tnk for using me :-)");
 }
 */
+/*
+//try catch practice 
 bool infinite = true;
 int num;
 string er = "thankYou";
@@ -283,10 +285,18 @@ while (infinite)
     {   
         Console.Clear();
         Console.WriteLine(er + "2");
-        Console.WriteLine(m);
+        Console.WriteLine(m.Message);
         Console.ReadKey();
+        Console.Clear();
+
         continue;
     }
+    finally{
+
+        Console.WriteLine("try again");
+        Console.ReadKey();
+    }
 }
+*/
 
 
