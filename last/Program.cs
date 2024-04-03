@@ -358,3 +358,38 @@ Console.WriteLine("\nstring math="+newMeow);
 string newMeow1=String.Format("\nliteral string {0} and {1}",s1,s2);
 Console.WriteLine("\nstring math="+newMeow1);
 */
+//String Manipulation Methods
+//date and time declearing empty
+DateTime date= new DateTime();
+//date and time with value
+DateTime dateWithValue= new DateTime(2000,6,9);
+DateTime exactDateWithValue= new DateTime(2000,6,9,6,49,58,DateTimeKind.Local);
+Console.Clear();
+Console.WriteLine("my brt is {0}",dateWithValue);
+
+Console.WriteLine($"day of week:{dateWithValue.DayOfWeek}");
+Console.WriteLine($"day of year:{dateWithValue.DayOfYear}");
+Console.WriteLine($"time of day:{exactDateWithValue.TimeOfDay}");
+Console.WriteLine($"tick:{exactDateWithValue.Ticks}");//sec form tracikng of time
+Console.WriteLine($"kind:{exactDateWithValue.Kind}");
+
+//Create a DAteTime form current timetamp
+DateTime now=DateTime.Now;
+Console.WriteLine("time is now: {0}",now);
+Console.WriteLine("what is your DDB(MM/DD/YYYY): ");
+string dob=Console.ReadLine();
+var userDob= DateTime.Parse(dob);
+
+Console.WriteLine($"you entered :{userDob.DayOfWeek}");
+Console.WriteLine($"day of week:{userDob.DayOfWeek}");
+Console.WriteLine($"day of year:{userDob.DayOfYear}");
+Console.WriteLine($"time of day:{userDob.TimeOfDay}");
+Console.WriteLine($"tick:{userDob.Ticks}");//sec form tracikng of time
+Console.WriteLine($"kind:{userDob.Kind}");
+
+
+//change format DAteTime
+Console.WriteLine($"formatted date: {userDob.ToString("dd/MM/yyyy")}");
+Console.WriteLine($"formatted date: {userDob.ToString("MMM-dd-yyyy")}");
+Console.WriteLine($"formatted date: {userDob.ToString("dddd,MMMM dd ,yyyy")}");
+//add additional time
